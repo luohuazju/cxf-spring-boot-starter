@@ -45,7 +45,7 @@ public class XmlValidationConfiguration {
     @Bean
     public AbstractSoapInterceptor soapInterceptor() {
         XmlValidationInterceptor xmlValidationInterceptor = new XmlValidationInterceptor();
-        xmlValidationInterceptor.setSoapFaultBuilder(soapFaultBuilder());
+        //xmlValidationInterceptor.setSoapFaultBuilder(soapFaultBuilder());
         return xmlValidationInterceptor;
     }
 }
